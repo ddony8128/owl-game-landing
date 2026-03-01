@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #d4a041;
+  --color-gold-light: #e8c068;
+  --color-gold-dark: #b8872e;
+  --color-dark: #0a0a0a;
+  --color-dark-card: #141414;
+  --color-dark-border: #2a2a2a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    "Pretendard Variable",
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    "Helvetica Neue",
+    "Segoe UI",
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    "Malgun Gothic",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    sans-serif;
+}
